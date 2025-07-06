@@ -1,0 +1,16 @@
+name: BlockFinderPlugin
+version: '1.0'
+main: me.nbernich.blockFinderPlugin.BlockFinderPlugin
+api-version: '1.21'
+authors: [ nbernich ]
+description: A Minecraft minigame where teams of players search for blocks.
+commands:
+  bfinder:
+    description: Start, stop, or display the current targets of the Block Finder minigame.
+    usage: /bfinder OR /bfinder <targets | start | stop | skip | help>
+  bfteams:
+    description: Add or leave Block Finder minigame teams.
+    usage: /bhteams OR /bhteams list OR /bhteams <join | leave> <team name>
+  bfscores:
+    description: List or modify team scores for Block Finder.
+    usage: /bfscores OR /bscores list OR /bfscores <set> <team name> <score>

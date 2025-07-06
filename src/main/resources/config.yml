@@ -1,0 +1,23 @@
+# How many target block options there should be in a round
+# Players can find any one of these blocks, and all will be reset once one is found
+targetCount: 3
+
+# Whether to prevent repeated target blocks
+# If enabled, once the targets are reset, those block types will not be selected again until all other types have been selected
+shouldPreventRepeatBlocks: false
+
+# Whether to enable a scoreboard in the sidebar
+useSidebarScoreboard: true
+
+# Whether to announce updated scores in the chat when a player finds a target block
+# Recommended as an alternative to the sidebar scoreboard
+showScoresOnFound: false
+
+# A list of teams with their names and colors (either hex codes or Minecraft-supported color names)
+# In chat, the teams will be displayed as "Team <name>" (e.g., "Team Red", "Team Blue")
+teams:
+  - name: Red
+    color: "red"
+
+  - name: Blue
+    color: "#0000ff"
