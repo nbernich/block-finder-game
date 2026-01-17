@@ -25,11 +25,9 @@ Each team will race to locate _any_ of the target blocks and crouch on top of on
 - `/bfinder stop` - stop the game (op only)
 - `/bfinder skip` - skip the current round, refreshing target blocks (op only)
 
-
-- `/bhteams` - list current team memberships
-- `/bhteams join <team name>` - join a team
-- `/bhteams leave` - leave your current team
-
+- `/bfteams` - list current team memberships
+- `/bfteams join <team name>` - join a team
+- `/bfteams leave` - leave your current team
 
 - `/bfscores` - list the scores of each team
 - `/bfscores set <team name> <score>` - set the score for a team (op only)
